@@ -1,0 +1,73 @@
+.level-btn{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: Source Sans Pro,sans-serif;
+}
+#game{
+    display: flex;
+    justify-content: center;
+}
+#board{
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 550px;
+    height: 550px;
+}
+.tile{
+    border: 1px solid #bec6d4;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0px;
+    vertical-align: middle;
+    font-size: 25px;
+    font-family: Source Sans Pro,sans-serif;
+}
+.fixed{
+    background-color: lightgrey;
+}
+/*.answerfield{
+    background-color: red;
+}*/
+p.incorrect{
+    color: red;
+}
+.bottomBorder{
+    border-bottom: 2px solid #344861;
+}
+.rightBorder{
+    border-right: 2px solid #344861;
+}
+.leftBorder{
+    border-left: 2px solid #344861;
+}
+.topBorder{
+    border-top: 2px solid #344861;
+}
+.validate{
+    text-align: center;
+}
+input{
+    border: none;
+}
+.tile:hover{
+    background-color: lightblue;
+}
+input.selected{
+    background-color: lightblue;
+}
+.btn{
+    border: none;
+    width: 65px;
+    height: 25px;
+    padding: auto;
+    font-family: Source Sans Pro,sans-serif;
+}
+.btn:hover{
+    border: 2px solid lightblue;
+}
